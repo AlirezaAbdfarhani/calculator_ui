@@ -11,11 +11,9 @@ class Form(QWidget):
         self.setFixedSize(300, 400)
         self.setWindowTitle("Calculator")
 
-        # Display
         self.display = QLineEdit(self)
         self.display.setGeometry(20, 20, 260, 40)
 
-        # Buttons layout
         buttons = [
             ('7', 20, 80), ('8', 90, 80), ('9', 160, 80), ('/', 230, 80),
             ('4', 20, 140), ('5', 90, 140), ('6', 160, 140), ('*', 230, 140),
